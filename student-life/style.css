@@ -1,0 +1,31 @@
+.student-hero { padding-block: 3rem 5rem; }
+.student-hero-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; grid-template-rows: auto 1fr; gap: 2rem 6rem; }
+.student-hero-heading { grid-column: 1; grid-row: 1; }
+.student-hero h1 { max-width: 23rem; font-size: 6rem; }
+.student-hero-intro { grid-column: 1; grid-row: 2; align-self: end; padding-bottom: 2rem; }
+.student-hero-intro p { max-width: 27rem; font-size: 1.125rem; }
+.student-hero-intro .text-link { margin-top: 1.5rem; }
+.student-hero figure { grid-column: 2; grid-row: 1 / span 2; }
+.student-hero figure img { width: 100%; height: 34rem; object-fit: cover; object-position: center 50%; border-radius: 4rem 1.5rem 1.5rem 1.5rem; }
+.student-story { padding-block: 4rem; border-top: 1px solid #b9ccee; }
+.student-story-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 2rem 6rem; }
+.student-story h2 { max-width: 29rem; font-size: 2.5rem; }
+.student-story-grid > div:last-of-type p { font-size: 0.9375rem; }
+.student-story-grid .text-link { margin-top: 1rem; }
+.club-interests { display: flex; flex-wrap: wrap; gap: 1rem 2.25rem; grid-column: 1 / -1; padding: 1.5rem 0 0; margin: 0; border-top: 1px solid #b9ccee; list-style: none; }
+.club-interests li { color: #192c43; font-size: 0.8125rem; }
+.student-updates { padding-top: 5rem; }
+.student-updates .section-heading { margin-bottom: 2.5rem; }
+.student-story-mosaic { display: grid; grid-template-columns: 1.15fr 1fr; align-items: start; gap: 2rem 3rem; }
+.update-card { min-width: 0; }
+.update-card-featured { grid-column: 1; grid-row: 1 / span 2; }
+.update-card-featured .gallery-open img { width: 100%; height: 27rem; object-fit: cover; }
+.update-card h3 { font-size: 1.75rem; }
+.update-card p { margin-top: 0.75rem; font-size: 0.875rem; }
+.update-card .text-link { margin-top: 0.75rem; }
+.update-card-copy { padding-top: 1.25rem; }
+.update-card-secondary, .update-card-tertiary { display: grid; grid-template-columns: 0.8fr 1fr; gap: 1.5rem; align-items: start; padding-bottom: 1.5rem; border-bottom: 1px solid #b9ccee; }
+.update-card-secondary .gallery-open img, .update-card-tertiary .gallery-open img { width: 100%; height: 14rem; object-fit: cover; object-position: center 40%; }
+.update-card-secondary .update-card-copy, .update-card-tertiary .update-card-copy { padding-top: 0.25rem; }
+.update-card-secondary h3, .update-card-tertiary h3 { font-size: 1.375rem; }
+.student-cta-section { padding-top: 0; }

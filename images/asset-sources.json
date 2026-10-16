@@ -1,0 +1,76 @@
+{
+  "JIHC student visit to ACCA": {
+    "source": "https://www.linkedin.com/posts/accacaarmon_we-had-the-pleasure-of-hosting-jambyl-innovation-activity-7327889530064199681-2eep",
+    "files": [
+      "jihc-acca-student-visit.webp",
+      "jihc-acca-presentation.webp",
+      "jihc-acca-class-session.webp"
+    ],
+    "publisher": "ACCA Central Asia, Armenia, Mongolia"
+  },
+  "JIHC Infomatrix team": {
+    "source": "https://www.linkedin.com/posts/jihc_infomatrix2022-sdu-bil-activity-7022459396211290112-jIxe",
+    "files": [
+      "jihc-infomatrix-team.webp"
+    ],
+    "publisher": "Jambyl Innovation High College"
+  },
+  "Additional JIHC campus gallery frames": {
+    "source": "images/New project.mp4",
+    "files": [
+      "jihc-campus-wide.webp",
+      "jihc-music-practice.webp",
+      "jihc-class-discussion.webp"
+    ],
+    "frameSeconds": [
+      0.35,
+      6.5,
+      8.2
+    ]
+  },
+  "JIHC and ACCA partnership": {
+    "source": "https://www.linkedin.com/posts/accacaarmon_partnership-mou-highereducation-activity-7196729507012055041-yxzV",
+    "publisher": "ACCA Central Asia, Armenia, Mongolia",
+    "files": [
+      "jihc-acca-partnership.webp"
+    ]
+  },
+  "Additional JIHC map photos": {
+    "source": "https://yandex.com/maps/org/zhambylskiy_innovatsionny_vysshiy_kolledzh/119761195098/gallery/",
+    "listing": "Jambyl Innovation High College, Alexander Pushkin street 154, Taraz",
+    "images": [
+      {
+        "file": "jihc-map-sports.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/16451045/2a000001991690e0acf95d40b053e5829b76/orig"
+      },
+      {
+        "file": "jihc-map-shared-meal.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/16483787/2a000001991690e0a03d148c1caaea25456d/orig"
+      },
+      {
+        "file": "jihc-map-courtyard.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/11300692/2a00000191b9ec49ceba368c3a9cafc561a4/orig"
+      },
+      {
+        "file": "jihc-map-gate.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/14079384/2a00000191b9db5d3c6ff8cd8bfb577f8874/orig"
+      },
+      {
+        "file": "jihc-map-garden.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/2755030/2a000001758b8770183f3403b6f5f8370006/orig"
+      },
+      {
+        "file": "jihc-map-front.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/2930751/2a000001758b877a807d7dcc0e0ec2d169be/orig"
+      },
+      {
+        "file": "jihc-map-side.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/3912953/2a000001758b879b52971c0d4743a48556f1/orig"
+      },
+      {
+        "file": "jihc-map-approach.webp",
+        "imageUrl": "https://avatars.mds.yandex.net/get-altay/4633583/2a00000179db45f5fde0f4a042344e8ab190/orig"
+      }
+    ]
+  }
+}

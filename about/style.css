@@ -1,0 +1,27 @@
+.about-hero { padding-top: 3rem; }
+.about-hero-title { margin-bottom: 3rem; }
+.about-hero-grid { display: grid; grid-template-columns: 1.45fr 1fr; align-items: center; gap: 5rem; }
+.about-hero-photo { position: relative; }
+.about-hero-photo img { width: 100%; height: 28rem; object-fit: cover; border-radius: 1.5rem 4rem 1.5rem 1.5rem; }
+.about-hero-copy > p { font-size: 1.25rem; line-height: 1.65; }
+.about-hero-copy .button-row { gap: 0.75rem 1.25rem; }
+.about-story-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 7rem; align-items: center; }
+.about-story-copy h2 { max-width: 27rem; }
+.about-story-copy > p { font-size: 0.9375rem; }
+.about-story-photo img { width: 100%; height: 30rem; object-fit: cover; object-position: center top; border-radius: 4rem 1.5rem 1.5rem 1.5rem; }
+.address-note { display: grid; gap: 0.5rem; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #b9ccee; font-size: 0.8125rem; }
+.address-note strong { font-weight: 600; }
+.address-note span { color: #3f5677; }
+.about-fields-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; max-width: none; align-items: baseline; }
+.about-fields-heading p { margin: 0; max-width: 29rem; }
+.about-field-row { padding-block: 2rem; border-top: 1px solid #b9ccee; }
+.about-field-row:last-child { border-bottom: 1px solid #b9ccee; }
+.about-field-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem 5rem; }
+.about-field-copy h3 { grid-row: 1 / span 2; font-size: 2rem; }
+.about-directions { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; padding: 0; margin: 0; list-style: none; font-size: 0.8125rem; }
+.about-field-copy p { grid-column: 2; margin: 0; font-size: 0.875rem; }
+.about-all-fields { margin-top: 1.5rem; }
+.about-cta-section { padding-top: 0; }
+.about-resource { max-width: 56rem; margin-top: 0.5rem; font-size: 0.75rem; }
+
+.about-hero-photo figcaption { position: absolute; left: 1.25rem; bottom: 1.25rem; padding: 0.65rem 1rem; margin: 0; border-radius: 999px; background: #edf3ff; color: #192c43; font-size: 0.75rem; }

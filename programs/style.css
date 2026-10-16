@@ -1,0 +1,132 @@
+.programs-hero {
+  padding-top: 3rem;
+}
+.programs-hero-copy {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  gap: 0 5rem;
+  padding-bottom: 3rem;
+}
+.programs-hero-copy .breadcrumb {
+  grid-column: 1 / -1;
+}
+.programs-hero-copy h1 {
+  grid-column: 1;
+  grid-row: 2 / span 2;
+}
+.programs-hero-copy > p:last-of-type {
+  grid-column: 2;
+  margin: 0;
+  max-width: 33rem;
+  font-size: 1.0625rem;
+}
+.programs-hero-copy .text-link {
+  grid-column: 2;
+  justify-self: start;
+  margin-top: 1rem;
+}
+.programs-photo img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  object-position: center 45%;
+  border-radius: 1.5rem 4rem 1.5rem 1.5rem;
+}
+.programs-photo figcaption {
+  text-align: right;
+}
+.programs-content {
+  padding-top: 5rem;
+}
+.programs-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+.programs-title h2 {
+  max-width: 31rem;
+  font-family: Outfit, Manrope, Arial, sans-serif;
+  font-size: 2.75rem;
+}
+.program-comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.program-major {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  background: #f4f8ff;
+  box-shadow: 0 16px 48px rgba(23, 45, 65, 0.09);
+}
+.program-major h3 {
+  max-width: 32rem;
+  margin-top: 0;
+  font-size: 2rem;
+}
+.program-copy > p {
+  max-width: 32rem;
+  margin-top: 1.25rem;
+  font-size: 0.9375rem;
+}
+.major-directions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 0;
+  margin: 1.5rem 0 2rem;
+  list-style: none;
+}
+.major-directions li {
+  font-size: 0.8125rem;
+  color: #192c43;
+}
+.program-major .text-link {
+  margin-top: 1.5rem;
+}
+.programs-notice {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 3rem;
+  max-width: 60rem;
+}
+.programs-notice > div {
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: 2rem;
+}
+.programs-notice a {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+.programs-next-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.7fr;
+  align-items: center;
+  gap: 8rem;
+}
+.programs-next-grid h2 {
+  max-width: 30rem;
+}
+.programs-next-grid figure img {
+  width: 100%;
+  height: 26rem;
+  object-fit: cover;
+  object-position: center 24%;
+  border-radius: 1.5rem;
+}
+.question-list {
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+.question-list li {
+  padding-block: 1rem;
+  border-bottom: 1px solid #b9ccee;
+  color: #3f5677;
+  font-size: 0.875rem;
+}

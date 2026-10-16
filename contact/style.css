@@ -1,0 +1,46 @@
+.contact-hero { padding-top: 3rem; }
+.contact-hero-grid > div { display: grid; grid-template-columns: 0.9fr 1fr; gap: 5rem; align-items: center; }
+.contact-hero-grid p { max-width: 31rem; margin: 0; font-size: 1.125rem; }
+.contact-details-layout { display: grid; grid-template-columns: 0.85fr 1.15fr; align-items: start; gap: 7rem; margin-top: 3rem; }
+.contact-directory { display: grid; gap: 0; }
+.contact-directory-item { display: grid; grid-template-columns: 4.5rem 1fr; gap: 0.5rem 1.5rem; padding-block: 1.5rem; border-top: 1px solid #b9ccee; }
+.contact-directory-item:last-child { border-bottom: 1px solid #b9ccee; }
+.contact-label { grid-column: 1; grid-row: 1 / span 2; padding-top: 0.25rem; font-size: 0.75rem; color: #3f5677; }
+.contact-directory-item h2 { grid-column: 2; font-size: 1.125rem; font-weight: 500; line-height: 1.5; letter-spacing: -0.025em; overflow-wrap: anywhere; }
+.contact-directory-item p:not(.contact-label) { grid-column: 2; margin: 0; font-size: 0.8125rem; }
+.contact-details-layout > figure { position: relative; }
+.contact-details-layout > figure img { width: 100%; height: 28rem; object-fit: cover; border-radius: 1.5rem 4rem 1.5rem 1.5rem; }
+.enquiry-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 7rem; align-items: start; }
+.enquiry-copy h2 { max-width: 25rem; }
+.enquiry-copy > p { font-size: 0.9375rem; max-width: 27rem; }
+.enquiry-copy ul { margin-top: 1.5rem; padding-left: 1rem; color: #3f5677; font-size: 0.875rem; }
+.enquiry-copy li { margin-bottom: 0.75rem; }
+.enquiry-form { display: grid; gap: 1.5rem; padding: 2.5rem; border-radius: 1.5rem; background: #edf3ff; box-shadow: 0 16px 48px rgba(23, 45, 65, 0.09); }
+.form-heading { margin-bottom: 0.5rem; }
+.form-heading h2 { font-size: 1.5rem; }
+.form-two-fields { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.enquiry-form label { display: grid; gap: 0.65rem; font-size: 0.8125rem; font-weight: 500; }
+.enquiry-form input, .enquiry-form select, .enquiry-form textarea { display: block; min-width: 0; width: 100%; min-height: 3.125rem; padding: 0.85rem; border: 1px solid #6b83a8; border-radius: 0.75rem; background: #edf3ff; color: #192c43; font-size: 0.9375rem; font-weight: 400; }
+.enquiry-form input::placeholder, .enquiry-form textarea::placeholder { color: #3f5677; opacity: 1; }
+.enquiry-form textarea { min-height: 9rem; resize: vertical; }
+.enquiry-form :is(input, select, textarea):user-invalid { border-color: #ad2323; }
+.form-note, .form-submit-row > span { color: #3f5677; font-size: 0.75rem; }
+.form-submit-row { display: flex; align-items: center; gap: 1.5rem; }
+.form-submit-row > span { max-width: 12rem; }
+.contact-location-copy { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 6rem; align-items: center; }
+.contact-location-copy h2 { max-width: 24rem; }
+.contact-location-copy address { margin-top: 1.75rem; font-size: 0.9375rem; font-style: normal; color: #3f5677; }
+.contact-location-copy > div p { max-width: 27rem; margin-top: 1.25rem; font-size: 0.875rem; }
+.contact-location-copy .button { margin-top: 1.75rem; margin-right: 1rem; }
+.contact-map iframe { height: 28rem; border-radius: 1.5rem; background: #d7e5ff; }
+.contact-channels > .page-width { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 6rem; }
+.contact-channels .section-heading { margin: 0; }
+.contact-channels h2 { font-size: 2.5rem; }
+.contact-channels .section-heading p { max-width: 26rem; font-size: 0.9375rem; }
+.official-channel-list { display: grid; }
+.official-channel { display: flex; align-items: baseline; justify-content: space-between; gap: 2rem; padding-block: 1.35rem; border-top: 1px solid #b9ccee; }
+.official-channel:last-child { border-bottom: 1px solid #b9ccee; }
+.official-channel span { color: #3f5677; font-size: 0.8125rem; }
+.official-channel strong { font-size: 0.875rem; font-weight: 500; overflow-wrap: anywhere; }
+
+.contact-details-layout > figure figcaption { position: absolute; left: 1.25rem; bottom: 1.25rem; margin: 0; padding: 0.65rem 1rem; border-radius: 999px; background: #edf3ff; color: #192c43; font-size: 0.75rem; }
